@@ -1,0 +1,71 @@
+/* navabar */
+#navbar {
+    align-items: center;
+    border-bottom: 5px solid #7ba03b;
+
+
+
+    position: relative;
+    display: flex;
+
+    height: 6.5rem;
+    grid-area: navbar;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    background-color: #7ba03b;
+    color: #7ba03b;
+    background-color: black;
+    justify-content: left;
+    padding-left: 3rem;
+
+}
+
+#navbar ul {
+    margin-top: var(--margin-top);
+    display: flex;
+   
+
+
+}
+
+#navbar li {
+
+    list-style-type: none;
+   
+    
+}
+
+#navbar li a {
+    padding: 0.5rem;
+    color:  #7ba03b;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    font-size: 2rem;
+    font-family: "Ubuntu Mono", monospace;
+
+}
+
+
+/* navbar transition */
+#navbar li a:hover {
+    color:#7ba03b;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+}
+
+
+
+#navbar img {
+    /* margin-right: 1rem; */
+
+    height: 5rem;
+    width: 5rem;
+
+
+}
+

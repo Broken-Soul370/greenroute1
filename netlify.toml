@@ -1,0 +1,11 @@
+[build]
+  publish = "c:\Users\shareff\Desktop\VSC\greenroute"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build]
+  command = "npm run build"
+
